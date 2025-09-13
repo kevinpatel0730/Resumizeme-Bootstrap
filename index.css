@@ -100,11 +100,134 @@ label {
     color: white;
     font-weight: 400;
 }
+
 .custom-btn:hover {
     background-color: #008B5D;
     color: white;
 }
+
 .place-color-chnage::placeholder {
     color: #14141F;
 }
 
+
+
+@media (max-width:768px) {
+    .rounded-circle-men {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+    }
+
+    .set-width-women {
+        width: 25%;
+        border-radius: 100%;
+    }
+
+    .setting {
+        transform: translate(35px, 0px);
+        color: #4C4C55;
+    }
+
+    .poket-rounded-circle {
+        width: 40px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rounded-circle {
+        padding: 0.5px 5px;
+        border: 1px solid #A1A1A5;
+        color: #A1A1A5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(35px, 0px);
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .rounded-circle-men {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+    }
+
+    .set-width-women {
+        width: 25%;
+        border-radius: 100%;
+    }
+
+    .setting {
+        transform: translate(80px, 0px);
+        color: #4C4C55;
+    }
+
+    .poket-rounded-circle {
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rounded-circle {
+        padding: 0.5px 5px;
+        border: 1px solid #A1A1A5;
+        color: #A1A1A5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(85px, 0px);
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .rounded-circle-men {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+    }
+
+    .set-width-women {
+        width: 25%;
+        border-radius: 100%;
+    }
+
+    .setting {
+        transform: translate(110px, 0px);
+        color: #4C4C55;
+    }
+
+    .poket-rounded-circle {
+        width: 80px;
+        height: 80px;
+        background-color: #FFFFFF;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rounded-circle {
+        padding: 0.5px 5px;
+        border: 1px solid #A1A1A5;
+        color: #A1A1A5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(120px, 0px);
+        font-weight: 600;
+    }
+
+}
